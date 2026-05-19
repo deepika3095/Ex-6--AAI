@@ -55,7 +55,7 @@ print("Antonyms:", set(antonyms))
 
 ## Output
 
-<img width="1067" height="243" alt="image" src="https://github.com/user-attachments/assets/fa93e8c4-d344-42ad-ac94-303a7badaadf" />
+<img width="1730" height="198" alt="image" src="https://github.com/user-attachments/assets/09148502-fdf4-400b-985c-538f0098dd25" />
 
 
 ## Result:
