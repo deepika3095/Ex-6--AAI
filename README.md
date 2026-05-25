@@ -24,17 +24,14 @@ Insert your code here
 import nltk
 from nltk.corpus import wordnet
 
-# Downloads
 nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('averaged_perceptron_tagger_eng')
 
 sentence = input("Enter a sentence: ")
 
-# Simple tokenization
 words = sentence.split()
 
-# POS tagging
 pos_tags = nltk.pos_tag(words)
 
 synonyms = []
