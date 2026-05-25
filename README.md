@@ -19,7 +19,6 @@ Step 5:Iterate through each word in the tokenized text.<br>
 
 ## Program:
 
-Insert your code here
 ```
 import nltk
 from nltk.corpus import wordnet
@@ -43,7 +42,7 @@ for word in words:
             synonyms.append(lemma.name())
 
             if lemma.antonyms():
-                antonyms.append(lemma.antonyms()[0].name())
+                antonyms.append(lemma.name())
 
 print("POS Tags:", pos_tags)
 print("Synonyms:", set(synonyms))
